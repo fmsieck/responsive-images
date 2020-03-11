@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+  max-width: 100vw;
+  display: flex;
+  object-fit: cover;
+  padding: 0.5em;
+  flex-wrap: wrap;
+}
+
+.avatar img {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 50%;
+}
+h3 {
+  text-align: center;
+  margin: auto;
+  padding-left: 0.5em;
+}
+
+.hero-image {
+  display: flex;
+  object-fit: cover;
+  height: 45vh;
+}
+.cat-frames img {
+  display: flex;
+  flex-direction: row;
+  object-fit: cover;
+  height: 33vh;
+  flex-wrap: wrap;
+}
+
+/* mobile */
+@media (max-width: 402px) {
+}
